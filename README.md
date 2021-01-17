@@ -1,5 +1,9 @@
 # Bridge
 
+<p align="center">
+  <img width="500" height="500" src="web/public/bridge.png" alt="Logo">
+</p>
+
 By Alexander Cai, Zaki Rangwala, and Ayden Heal for Hack the North 2021.
 
 Bridge is an innovative technology based on [Twilio](https://www.twilio.com/docs) which allows you to get the data you need, even when you're out of range of a cellular network!
@@ -20,17 +24,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Run Server
 
-To learn more about Next.js, take a look at the following resources:
+To run the backend server, navigate to server and download all the required dependencies :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pip install -r requirements.txt
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Then navigate to the src and run main.py on port 5000 <br>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+\* Note : Personal Twilio Account needed to connect the server webhook to Twilio messaging service (API Keys and Account Credentials not provided)
